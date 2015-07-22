@@ -4,9 +4,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Olamundo extends CI_Controller{
 
     public  function index(){
-        echo __FUNCTION__;
+        $this->load->view('olamundo');
     }
     public function incluir(){
-
+        $this->load->view('exemplo2');
     }
 }
